@@ -1,8 +1,8 @@
 {
   "stats": {
-    "products": 24,
-    "skus": 207,
-    "colors": 92
+    "products": 17,
+    "skus": 138,
+    "colors": 66
   },
   "products": [
     {
@@ -14,68 +14,13 @@
       "price": 550000,
       "oldPrice": 790000,
       "discount": 30,
-      "skuCount": 8,
+      "skuCount": 3,
       "sizes": [
         "39",
         "40",
-        "41",
         "42"
       ],
       "colors": [
-        {
-          "name": "Синий",
-          "sizes": [
-            "40"
-          ],
-          "photos": [
-            "fotos/730900_Мужские мокасины Roberto Bossi/Синий/01.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Синий/02.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Синий/03.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Синий/04.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Синий/05.jpg"
-          ],
-          "skuIds": [
-            1680001
-          ],
-          "barcodes": [
-            "1000016800013"
-          ],
-          "variants": [
-            {
-              "size": "40",
-              "skuId": 1680001,
-              "skuName": "WQDQWD-3005-СИНИЙ-40",
-              "barcode": "1000016800013"
-            }
-          ]
-        },
-        {
-          "name": "Тёмно-коричневый",
-          "sizes": [
-            "39"
-          ],
-          "photos": [
-            "fotos/730900_Мужские мокасины Roberto Bossi/Тёмно-коричневый/01.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Тёмно-коричневый/02.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Тёмно-коричневый/03.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Тёмно-коричневый/04.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Тёмно-коричневый/05.jpg"
-          ],
-          "skuIds": [
-            1680011
-          ],
-          "barcodes": [
-            "1000016800112"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1680011,
-              "skuName": "WQDQWD-3005-ТЕМНКОР-39",
-              "barcode": "1000016800112"
-            }
-          ]
-        },
         {
           "name": "Хаки",
           "sizes": [
@@ -119,54 +64,9 @@
               "barcode": "1000016800365"
             }
           ]
-        },
-        {
-          "name": "Черный",
-          "sizes": [
-            "39",
-            "41",
-            "42"
-          ],
-          "photos": [
-            "fotos/730900_Мужские мокасины Roberto Bossi/Черный/01.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Черный/02.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Черный/03.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Черный/04.jpg",
-            "fotos/730900_Мужские мокасины Roberto Bossi/Черный/05.jpg"
-          ],
-          "skuIds": [
-            1680044,
-            1680046,
-            1680047
-          ],
-          "barcodes": [
-            "1000016800440",
-            "1000016800464",
-            "1000016800471"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1680044,
-              "skuName": "WQDQWD-3005-ЧЕРН-39",
-              "barcode": "1000016800440"
-            },
-            {
-              "size": "41",
-              "skuId": 1680046,
-              "skuName": "WQDQWD-3005-ЧЕРН-41",
-              "barcode": "1000016800464"
-            },
-            {
-              "size": "42",
-              "skuId": 1680047,
-              "skuName": "WQDQWD-3005-ЧЕРН-42",
-              "barcode": "1000016800471"
-            }
-          ]
         }
       ],
-      "cover": "fotos/730900_Мужские мокасины Roberto Bossi/Синий/01.jpg"
+      "cover": "fotos/730900_Мужские мокасины Roberto Bossi/Хаки/01.jpg"
     },
     {
       "id": 731058,
@@ -275,48 +175,16 @@
       "price": 550000,
       "oldPrice": 790000,
       "discount": 30,
-      "skuCount": 7,
+      "skuCount": 3,
       "sizes": [
         "39",
-        "40",
-        "43",
-        "44",
-        "47"
+        "44"
       ],
       "colors": [
-        {
-          "name": "Алый",
-          "sizes": [
-            "47"
-          ],
-          "photos": [
-            "fotos/731072_Мужские мокасины Roberto Bossi/Алый/01.jpg",
-            "fotos/731072_Мужские мокасины Roberto Bossi/Алый/02.jpg",
-            "fotos/731072_Мужские мокасины Roberto Bossi/Алый/03.jpg",
-            "fotos/731072_Мужские мокасины Roberto Bossi/Алый/04.jpg",
-            "fotos/731072_Мужские мокасины Roberto Bossi/Алый/05.jpg"
-          ],
-          "skuIds": [
-            1680650
-          ],
-          "barcodes": [
-            "1000016806503"
-          ],
-          "variants": [
-            {
-              "size": "47",
-              "skuId": 1680650,
-              "skuName": "WQDQWD-80502-АЛЫЙ-47",
-              "barcode": "1000016806503"
-            }
-          ]
-        },
         {
           "name": "Бронзовый",
           "sizes": [
             "39",
-            "40",
-            "43",
             "44"
           ],
           "photos": [
@@ -328,14 +196,10 @@
           ],
           "skuIds": [
             1680652,
-            1680653,
-            1680656,
             1680657
           ],
           "barcodes": [
             "1000016806527",
-            "1000016806534",
-            "1000016806565",
             "1000016806572"
           ],
           "variants": [
@@ -344,18 +208,6 @@
               "skuId": 1680652,
               "skuName": "WQDQWD-80502-БРОНЗ-39",
               "barcode": "1000016806527"
-            },
-            {
-              "size": "40",
-              "skuId": 1680653,
-              "skuName": "WQDQWD-80502-БРОНЗ-40",
-              "barcode": "1000016806534"
-            },
-            {
-              "size": "43",
-              "skuId": 1680656,
-              "skuName": "WQDQWD-80502-БРОНЗ-43",
-              "barcode": "1000016806565"
             },
             {
               "size": "44",
@@ -368,8 +220,7 @@
         {
           "name": "Коричневый",
           "sizes": [
-            "39",
-            "40"
+            "39"
           ],
           "photos": [
             "fotos/731072_Мужские мокасины Roberto Bossi/Коричневый/01.jpg",
@@ -379,12 +230,10 @@
             "fotos/731072_Мужские мокасины Roberto Bossi/Коричневый/05.jpg"
           ],
           "skuIds": [
-            1680672,
-            1680673
+            1680672
           ],
           "barcodes": [
-            "1000016806725",
-            "1000016806732"
+            "1000016806725"
           ],
           "variants": [
             {
@@ -392,81 +241,11 @@
               "skuId": 1680672,
               "skuName": "WQDQWD-80502-КОРИЧН-39",
               "barcode": "1000016806725"
-            },
-            {
-              "size": "40",
-              "skuId": 1680673,
-              "skuName": "WQDQWD-80502-КОРИЧН-40",
-              "barcode": "1000016806732"
             }
           ]
         }
       ],
-      "cover": "fotos/731072_Мужские мокасины Roberto Bossi/Алый/01.jpg"
-    },
-    {
-      "id": 731089,
-      "name": "Мужские туфли Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "туфли",
-      "price": 550000,
-      "oldPrice": 790000,
-      "discount": 30,
-      "skuCount": 3,
-      "sizes": [
-        "40",
-        "43",
-        "44"
-      ],
-      "colors": [
-        {
-          "name": "Черный",
-          "sizes": [
-            "40",
-            "43",
-            "44"
-          ],
-          "photos": [
-            "fotos/731089_Мужские туфли Roberto Bossi/Черный/01.jpg",
-            "fotos/731089_Мужские туфли Roberto Bossi/Черный/02.jpg",
-            "fotos/731089_Мужские туфли Roberto Bossi/Черный/03.jpg",
-            "fotos/731089_Мужские туфли Roberto Bossi/Черный/04.jpg",
-            "fotos/731089_Мужские туфли Roberto Bossi/Черный/05.jpg"
-          ],
-          "skuIds": [
-            1680819,
-            1680822,
-            1680823
-          ],
-          "barcodes": [
-            "1000016808194",
-            "1000016808224",
-            "1000016808231"
-          ],
-          "variants": [
-            {
-              "size": "40",
-              "skuId": 1680819,
-              "skuName": "WQDQWD-0105-ЧЕРН-40",
-              "barcode": "1000016808194"
-            },
-            {
-              "size": "43",
-              "skuId": 1680822,
-              "skuName": "WQDQWD-0105-ЧЕРН-43",
-              "barcode": "1000016808224"
-            },
-            {
-              "size": "44",
-              "skuId": 1680823,
-              "skuName": "WQDQWD-0105-ЧЕРН-44",
-              "barcode": "1000016808231"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/731089_Мужские туфли Roberto Bossi/Черный/01.jpg"
+      "cover": "fotos/731072_Мужские мокасины Roberto Bossi/Бронзовый/01.jpg"
     },
     {
       "id": 731095,
@@ -477,22 +256,18 @@
       "price": 550000,
       "oldPrice": 790000,
       "discount": 30,
-      "skuCount": 13,
+      "skuCount": 6,
       "sizes": [
         "39",
         "40",
         "42",
-        "43",
-        "44",
-        "45",
-        "47"
+        "43"
       ],
       "colors": [
         {
           "name": "Приглушённый хаки",
           "sizes": [
-            "39",
-            "43"
+            "39"
           ],
           "photos": [
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Приглушённый хаки/01.jpg",
@@ -501,12 +276,10 @@
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Приглушённый хаки/04.jpg"
           ],
           "skuIds": [
-            2313456,
-            2313460
+            2313456
           ],
           "barcodes": [
-            "1000023134569",
-            "1000023134606"
+            "1000023134569"
           ],
           "variants": [
             {
@@ -514,12 +287,6 @@
               "skuId": 2313456,
               "skuName": "WQDQWD-0109-ПРИГХАК-39",
               "barcode": "1000023134569"
-            },
-            {
-              "size": "43",
-              "skuId": 2313460,
-              "skuName": "WQDQWD-0109-ПРИГХАК-43",
-              "barcode": "1000023134606"
             }
           ]
         },
@@ -552,10 +319,7 @@
         {
           "name": "Угольный",
           "sizes": [
-            "39",
-            "40",
-            "44",
-            "47"
+            "40"
           ],
           "photos": [
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Угольный/01.jpg",
@@ -565,77 +329,26 @@
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Угольный/05.jpg"
           ],
           "skuIds": [
-            1789826,
-            1789827,
-            1789831,
-            1789834
+            1789827
           ],
           "barcodes": [
-            "1000017898262",
-            "1000017898279",
-            "1000017898316",
-            "1000017898347"
+            "1000017898279"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 1789826,
-              "skuName": "WQDQWD-0109-УГОЛЬН-39",
-              "barcode": "1000017898262"
-            },
             {
               "size": "40",
               "skuId": 1789827,
               "skuName": "WQDQWD-0109-УГОЛЬН-40",
               "barcode": "1000017898279"
-            },
-            {
-              "size": "44",
-              "skuId": 1789831,
-              "skuName": "WQDQWD-0109-УГОЛЬН-44",
-              "barcode": "1000017898316"
-            },
-            {
-              "size": "47",
-              "skuId": 1789834,
-              "skuName": "WQDQWD-0109-УГОЛЬН-47",
-              "barcode": "1000017898347"
-            }
-          ]
-        },
-        {
-          "name": "Хром",
-          "sizes": [
-            "42"
-          ],
-          "photos": [
-            "fotos/731095_Мужские туфли Roberto Bossi из кожи/Хром/01.jpg",
-            "fotos/731095_Мужские туфли Roberto Bossi из кожи/Хром/02.jpg",
-            "fotos/731095_Мужские туфли Roberto Bossi из кожи/Хром/03.jpg"
-          ],
-          "skuIds": [
-            2313481
-          ],
-          "barcodes": [
-            "1000023134811"
-          ],
-          "variants": [
-            {
-              "size": "42",
-              "skuId": 2313481,
-              "skuName": "WQDQWD-0109-ХРОМ-42",
-              "barcode": "1000023134811"
             }
           ]
         },
         {
           "name": "Черный",
           "sizes": [
-            "39",
             "40",
             "42",
-            "43",
-            "45"
+            "43"
           ],
           "photos": [
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Черный/01.jpg",
@@ -645,26 +358,16 @@
             "fotos/731095_Мужские туфли Roberto Bossi из кожи/Черный/05.jpg"
           ],
           "skuIds": [
-            1680859,
             1680860,
             1680862,
-            1680863,
-            1680865
+            1680863
           ],
           "barcodes": [
-            "1000016808590",
             "1000016808606",
             "1000016808620",
-            "1000016808637",
-            "1000016808651"
+            "1000016808637"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 1680859,
-              "skuName": "WQDQWD-0109-ЧЕРН-39",
-              "barcode": "1000016808590"
-            },
             {
               "size": "40",
               "skuId": 1680860,
@@ -682,12 +385,6 @@
               "skuId": 1680863,
               "skuName": "WQDQWD-0109-ЧЕРН-43",
               "barcode": "1000016808637"
-            },
-            {
-              "size": "45",
-              "skuId": 1680865,
-              "skuName": "WQDQWD-0109-ЧЕРН-45",
-              "barcode": "1000016808651"
             }
           ]
         }
@@ -703,10 +400,9 @@
       "price": 550000,
       "oldPrice": 790000,
       "discount": 30,
-      "skuCount": 2,
+      "skuCount": 1,
       "sizes": [
-        "40",
-        "47"
+        "40"
       ],
       "colors": [
         {
@@ -735,33 +431,6 @@
               "barcode": "1000017844474"
             }
           ]
-        },
-        {
-          "name": "Угольный",
-          "sizes": [
-            "47"
-          ],
-          "photos": [
-            "fotos/731097_Мужские туфли Roberto Bossi/Угольный/01.jpg",
-            "fotos/731097_Мужские туфли Roberto Bossi/Угольный/02.jpg",
-            "fotos/731097_Мужские туфли Roberto Bossi/Угольный/03.jpg",
-            "fotos/731097_Мужские туфли Roberto Bossi/Угольный/04.jpg",
-            "fotos/731097_Мужские туфли Roberto Bossi/Угольный/05.jpg"
-          ],
-          "skuIds": [
-            1784476
-          ],
-          "barcodes": [
-            "1000017844764"
-          ],
-          "variants": [
-            {
-              "size": "47",
-              "skuId": 1784476,
-              "skuName": "WQDQWD-1620-УГОЛЬН-47",
-              "barcode": "1000017844764"
-            }
-          ]
         }
       ],
       "cover": "fotos/731097_Мужские туфли Roberto Bossi/Коричневый/01.jpg"
@@ -775,12 +444,10 @@
       "price": 780000,
       "oldPrice": 790000,
       "discount": 1,
-      "skuCount": 17,
+      "skuCount": 8,
       "sizes": [
         "39",
         "40",
-        "41",
-        "42",
         "43",
         "46"
       ],
@@ -789,8 +456,7 @@
           "name": "Зеленый",
           "sizes": [
             "39",
-            "40",
-            "41"
+            "40"
           ],
           "photos": [
             "fotos/756567_Туфли из чистого набука Roberto Bossi/Зеленый/01.jpg",
@@ -801,13 +467,11 @@
           ],
           "skuIds": [
             1783894,
-            1783897,
-            1783900
+            1783897
           ],
           "barcodes": [
             "1000017838947",
-            "1000017838978",
-            "1000017839005"
+            "1000017838978"
           ],
           "variants": [
             {
@@ -821,48 +485,6 @@
               "skuId": 1783897,
               "skuName": "MILORD-9400-ЗЕЛЕН-40",
               "barcode": "1000017838978"
-            },
-            {
-              "size": "41",
-              "skuId": 1783900,
-              "skuName": "MILORD-9400-ЗЕЛЕН-41",
-              "barcode": "1000017839005"
-            }
-          ]
-        },
-        {
-          "name": "Индиго",
-          "sizes": [
-            "40",
-            "43"
-          ],
-          "photos": [
-            "fotos/756567_Туфли из чистого набука Roberto Bossi/Индиго/01.jpg",
-            "fotos/756567_Туфли из чистого набука Roberto Bossi/Индиго/02.jpg",
-            "fotos/756567_Туфли из чистого набука Roberto Bossi/Индиго/03.jpg",
-            "fotos/756567_Туфли из чистого набука Roberto Bossi/Индиго/04.jpg",
-            "fotos/756567_Туфли из чистого набука Roberto Bossi/Индиго/05.jpg"
-          ],
-          "skuIds": [
-            1783898,
-            1783907
-          ],
-          "barcodes": [
-            "1000017838985",
-            "1000017839074"
-          ],
-          "variants": [
-            {
-              "size": "40",
-              "skuId": 1783898,
-              "skuName": "MILORD-9400-ИНДИГО-40",
-              "barcode": "1000017838985"
-            },
-            {
-              "size": "43",
-              "skuId": 1783907,
-              "skuName": "MILORD-9400-ИНДИГО-43",
-              "barcode": "1000017839074"
             }
           ]
         },
@@ -870,8 +492,6 @@
           "name": "Угольный",
           "sizes": [
             "39",
-            "41",
-            "43",
             "46"
           ],
           "photos": [
@@ -883,14 +503,10 @@
           ],
           "skuIds": [
             1809200,
-            1809202,
-            1809204,
             2312812
           ],
           "barcodes": [
             "1000018092003",
-            "1000018092027",
-            "1000018092041",
             "1000023128124"
           ],
           "variants": [
@@ -899,18 +515,6 @@
               "skuId": 1809200,
               "skuName": "MILORD-9400-УГОЛЬН-39",
               "barcode": "1000018092003"
-            },
-            {
-              "size": "41",
-              "skuId": 1809202,
-              "skuName": "MILORD-9400-УГОЛЬН-41",
-              "barcode": "1000018092027"
-            },
-            {
-              "size": "43",
-              "skuId": 1809204,
-              "skuName": "MILORD-9400-УГОЛЬН-43",
-              "barcode": "1000018092041"
             },
             {
               "size": "46",
@@ -923,7 +527,6 @@
         {
           "name": "Хаки",
           "sizes": [
-            "40",
             "43"
           ],
           "photos": [
@@ -932,20 +535,12 @@
             "fotos/756567_Туфли из чистого набука Roberto Bossi/Хаки/03.jpg"
           ],
           "skuIds": [
-            2312788,
             2312796
           ],
           "barcodes": [
-            "1000023127882",
             "1000023127967"
           ],
           "variants": [
-            {
-              "size": "40",
-              "skuId": 2312788,
-              "skuName": "MILORD-9400-ХАКИ-40",
-              "barcode": "1000023127882"
-            },
             {
               "size": "43",
               "skuId": 2312796,
@@ -957,7 +552,6 @@
         {
           "name": "Хром",
           "sizes": [
-            "39",
             "43"
           ],
           "photos": [
@@ -966,20 +560,12 @@
             "fotos/756567_Туфли из чистого набука Roberto Bossi/Хром/03.jpg"
           ],
           "skuIds": [
-            2312786,
             2312797
           ],
           "barcodes": [
-            "1000023127868",
             "1000023127974"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 2312786,
-              "skuName": "MILORD-9400-ХРОМ-39",
-              "barcode": "1000023127868"
-            },
             {
               "size": "43",
               "skuId": 2312797,
@@ -992,9 +578,7 @@
           "name": "Черный",
           "sizes": [
             "39",
-            "40",
-            "42",
-            "43"
+            "40"
           ],
           "photos": [
             "fotos/756567_Туфли из чистого набука Roberto Bossi/Черный/01.jpg",
@@ -1005,15 +589,11 @@
           ],
           "skuIds": [
             1783896,
-            1783899,
-            1783905,
-            1783908
+            1783899
           ],
           "barcodes": [
             "1000017838961",
-            "1000017838992",
-            "1000017839050",
-            "1000017839081"
+            "1000017838992"
           ],
           "variants": [
             {
@@ -1027,18 +607,6 @@
               "skuId": 1783899,
               "skuName": "MILORD-9400-ЧЕРН-40",
               "barcode": "1000017838992"
-            },
-            {
-              "size": "42",
-              "skuId": 1783905,
-              "skuName": "MILORD-9400-ЧЕРН-42",
-              "barcode": "1000017839050"
-            },
-            {
-              "size": "43",
-              "skuId": 1783908,
-              "skuName": "MILORD-9400-ЧЕРН-43",
-              "barcode": "1000017839081"
             }
           ]
         }
@@ -1054,10 +622,9 @@
       "price": 650000,
       "oldPrice": 790000,
       "discount": 18,
-      "skuCount": 4,
+      "skuCount": 2,
       "sizes": [
-        "39",
-        "43"
+        "39"
       ],
       "colors": [
         {
@@ -1084,58 +651,6 @@
               "skuId": 1784405,
               "skuName": "MILORD-3006-ИНДИГО-39",
               "barcode": "1000017844054"
-            }
-          ]
-        },
-        {
-          "name": "Тёмно-зелёный",
-          "sizes": [
-            "39"
-          ],
-          "photos": [
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Тёмно-зелёный/01.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Тёмно-зелёный/02.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Тёмно-зелёный/03.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Тёмно-зелёный/04.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Тёмно-зелёный/05.jpg"
-          ],
-          "skuIds": [
-            1784406
-          ],
-          "barcodes": [
-            "1000017844061"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1784406,
-              "skuName": "MILORD-3006-ТЕМНЗЕЛ-39",
-              "barcode": "1000017844061"
-            }
-          ]
-        },
-        {
-          "name": "Хром",
-          "sizes": [
-            "43"
-          ],
-          "photos": [
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Хром/01.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Хром/02.jpg",
-            "fotos/757630_Туфли из натуральной кожи Roberto Bossi/Хром/03.jpg"
-          ],
-          "skuIds": [
-            2313201
-          ],
-          "barcodes": [
-            "1000023132015"
-          ],
-          "variants": [
-            {
-              "size": "43",
-              "skuId": 2313201,
-              "skuName": "MILORD-3006-ХРОМ-43",
-              "barcode": "1000023132015"
             }
           ]
         },
@@ -1278,50 +793,6 @@
       "cover": "fotos/766395_Мужские мокасины Roberto Bossi/3005A/01.jpg"
     },
     {
-      "id": 768119,
-      "name": "Мужские туфли Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "туфли",
-      "price": 550000,
-      "oldPrice": 790000,
-      "discount": 30,
-      "skuCount": 1,
-      "sizes": [
-        "47"
-      ],
-      "colors": [
-        {
-          "name": "Модель 1620A",
-          "sizes": [
-            "47"
-          ],
-          "photos": [
-            "fotos/768119_Мужские туфли Roberto Bossi/1620A/01.jpg",
-            "fotos/768119_Мужские туфли Roberto Bossi/1620A/02.jpg",
-            "fotos/768119_Мужские туфли Roberto Bossi/1620A/03.jpg",
-            "fotos/768119_Мужские туфли Roberto Bossi/1620A/04.jpg",
-            "fotos/768119_Мужские туфли Roberto Bossi/1620A/05.jpg"
-          ],
-          "skuIds": [
-            1821155
-          ],
-          "barcodes": [
-            "1000018211558"
-          ],
-          "variants": [
-            {
-              "size": "47",
-              "skuId": 1821155,
-              "skuName": "MILORD-1620A-47",
-              "barcode": "1000018211558"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/768119_Мужские туфли Roberto Bossi/1620A/01.jpg"
-    },
-    {
       "id": 789830,
       "name": "Меховые зимние туфли Roberto Bossi",
       "brand": "Roberto Bossi",
@@ -1330,11 +801,10 @@
       "price": 520000,
       "oldPrice": 790000,
       "discount": 34,
-      "skuCount": 4,
+      "skuCount": 3,
       "sizes": [
         "39",
-        "43",
-        "46"
+        "43"
       ],
       "colors": [
         {
@@ -1374,33 +844,6 @@
           ]
         },
         {
-          "name": "Угольный",
-          "sizes": [
-            "46"
-          ],
-          "photos": [
-            "fotos/789830_Меховые зимние туфли Roberto Bossi/Угольный/01.jpg",
-            "fotos/789830_Меховые зимние туфли Roberto Bossi/Угольный/02.jpg",
-            "fotos/789830_Меховые зимние туфли Roberto Bossi/Угольный/03.jpg",
-            "fotos/789830_Меховые зимние туфли Roberto Bossi/Угольный/04.jpg",
-            "fotos/789830_Меховые зимние туфли Roberto Bossi/Угольный/05.jpg"
-          ],
-          "skuIds": [
-            1909669
-          ],
-          "barcodes": [
-            "1000019096697"
-          ],
-          "variants": [
-            {
-              "size": "46",
-              "skuId": 1909669,
-              "skuName": "MILORD-3005Z-УГОЛЬН-46",
-              "barcode": "1000019096697"
-            }
-          ]
-        },
-        {
           "name": "Черный",
           "sizes": [
             "39"
@@ -1431,50 +874,6 @@
       "cover": "fotos/789830_Меховые зимние туфли Roberto Bossi/Зеленый/01.jpg"
     },
     {
-      "id": 789843,
-      "name": "Меховые зимние туфли Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "туфли",
-      "price": 520000,
-      "oldPrice": 790000,
-      "discount": 34,
-      "skuCount": 1,
-      "sizes": [
-        "43"
-      ],
-      "colors": [
-        {
-          "name": "Угольный",
-          "sizes": [
-            "43"
-          ],
-          "photos": [
-            "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/01.jpg",
-            "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/02.jpg",
-            "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/03.jpg",
-            "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/04.jpg",
-            "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/05.jpg"
-          ],
-          "skuIds": [
-            1923944
-          ],
-          "barcodes": [
-            "1000019239445"
-          ],
-          "variants": [
-            {
-              "size": "43",
-              "skuId": 1923944,
-              "skuName": "MILORD-80507Z-УГОЛЬН-43",
-              "barcode": "1000019239445"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/789843_Меховые зимние туфли Roberto Bossi/Угольный/01.jpg"
-    },
-    {
       "id": 793121,
       "name": "Меховые зимние туфли Roberto Bossi",
       "brand": "Roberto Bossi",
@@ -1483,7 +882,7 @@
       "price": 750000,
       "oldPrice": 790000,
       "discount": 5,
-      "skuCount": 2,
+      "skuCount": 1,
       "sizes": [
         "39"
       ],
@@ -1514,268 +913,9 @@
               "barcode": "1000019242032"
             }
           ]
-        },
-        {
-          "name": "Черный",
-          "sizes": [
-            "39"
-          ],
-          "photos": [
-            "fotos/793121_Меховые зимние туфли Roberto Bossi/Черный/01.jpg",
-            "fotos/793121_Меховые зимние туфли Roberto Bossi/Черный/02.jpg",
-            "fotos/793121_Меховые зимние туфли Roberto Bossi/Черный/03.jpg",
-            "fotos/793121_Меховые зимние туфли Roberto Bossi/Черный/04.jpg",
-            "fotos/793121_Меховые зимние туфли Roberto Bossi/Черный/05.jpg"
-          ],
-          "skuIds": [
-            1924205
-          ],
-          "barcodes": [
-            "1000019242056"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1924205,
-              "skuName": "MILORD-0110-ЧЕРН-39",
-              "barcode": "1000019242056"
-            }
-          ]
         }
       ],
       "cover": "fotos/793121_Меховые зимние туфли Roberto Bossi/Индиго/01.jpg"
-    },
-    {
-      "id": 793145,
-      "name": "Сапоги, меховые, зимние, Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "сапоги",
-      "price": 980000,
-      "oldPrice": 1200000,
-      "discount": 18,
-      "skuCount": 5,
-      "sizes": [
-        "39",
-        "40",
-        "41",
-        "42"
-      ],
-      "colors": [
-        {
-          "name": "Индиго",
-          "sizes": [
-            "39",
-            "41"
-          ],
-          "photos": [
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/01.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/02.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/03.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/04.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/05.jpg"
-          ],
-          "skuIds": [
-            1924328,
-            1924336
-          ],
-          "barcodes": [
-            "1000019243282",
-            "1000019243367"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1924328,
-              "skuName": "MILORD-70110Z-ИНДИГО-39",
-              "barcode": "1000019243282"
-            },
-            {
-              "size": "41",
-              "skuId": 1924336,
-              "skuName": "MILORD-70110Z-ИНДИГО-41",
-              "barcode": "1000019243367"
-            }
-          ]
-        },
-        {
-          "name": "Черный",
-          "sizes": [
-            "39",
-            "40",
-            "42"
-          ],
-          "photos": [
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Черный/01.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Черный/02.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Черный/03.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Черный/04.jpg",
-            "fotos/793145_Сапоги меховые зимние Roberto Bossi/Черный/05.jpg"
-          ],
-          "skuIds": [
-            1924331,
-            1924335,
-            1924343
-          ],
-          "barcodes": [
-            "1000019243312",
-            "1000019243350",
-            "1000019243435"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 1924331,
-              "skuName": "MILORD-70110Z-ЧЕРН-39",
-              "barcode": "1000019243312"
-            },
-            {
-              "size": "40",
-              "skuId": 1924335,
-              "skuName": "MILORD-70110Z-ЧЕРН-40",
-              "barcode": "1000019243350"
-            },
-            {
-              "size": "42",
-              "skuId": 1924343,
-              "skuName": "MILORD-70110Z-ЧЕРН-42",
-              "barcode": "1000019243435"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/793145_Сапоги меховые зимние Roberto Bossi/Индиго/01.jpg"
-    },
-    {
-      "id": 793186,
-      "name": "Меховые зимние туфли Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "туфли",
-      "price": 550000,
-      "oldPrice": 790000,
-      "discount": 30,
-      "skuCount": 1,
-      "sizes": [
-        "40"
-      ],
-      "colors": [
-        {
-          "name": "Хром",
-          "sizes": [
-            "40"
-          ],
-          "photos": [
-            "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/01.jpg",
-            "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/02.jpg",
-            "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/03.jpg",
-            "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/04.jpg",
-            "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/05.jpg"
-          ],
-          "skuIds": [
-            1924930
-          ],
-          "barcodes": [
-            "1000019249307"
-          ],
-          "variants": [
-            {
-              "size": "40",
-              "skuId": 1924930,
-              "skuName": "MILORD-1620Z-ХРОМ-40",
-              "barcode": "1000019249307"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/793186_Меховые зимние туфли Roberto Bossi/Хром/01.jpg"
-    },
-    {
-      "id": 793384,
-      "name": "Качественные меховые зимние сапоги Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "сапоги",
-      "price": 1200000,
-      "oldPrice": 1200000,
-      "discount": 0,
-      "skuCount": 1,
-      "sizes": [
-        "39"
-      ],
-      "colors": [
-        {
-          "name": "Черный",
-          "sizes": [
-            "39"
-          ],
-          "photos": [
-            "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/01.jpg",
-            "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/02.jpg",
-            "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/03.jpg",
-            "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/04.jpg",
-            "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/05.jpg"
-          ],
-          "skuIds": [
-            2184026
-          ],
-          "barcodes": [
-            "1000021840264"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 2184026,
-              "skuName": "MILORD-70110-ЧЕРН-39",
-              "barcode": "1000021840264"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/793384_Качественные меховые зимние сапоги Roberto Bossi/Черный/01.jpg"
-    },
-    {
-      "id": 883886,
-      "name": "Туфли из натуральной кожи Roberto Bossi",
-      "brand": "Roberto Bossi",
-      "shop": "MILORD",
-      "kind": "туфли",
-      "price": 550000,
-      "oldPrice": 790000,
-      "discount": 30,
-      "skuCount": 1,
-      "sizes": [
-        "43,5"
-      ],
-      "colors": [
-        {
-          "name": "Коричневый",
-          "sizes": [
-            "43,5"
-          ],
-          "photos": [
-            "fotos/883886_Туфли из натуральной кожи Roberto Bossi/Коричневый/01.jpg",
-            "fotos/883886_Туфли из натуральной кожи Roberto Bossi/Коричневый/02.jpg",
-            "fotos/883886_Туфли из натуральной кожи Roberto Bossi/Коричневый/03.jpg",
-            "fotos/883886_Туфли из натуральной кожи Roberto Bossi/Коричневый/04.jpg"
-          ],
-          "skuIds": [
-            2313810
-          ],
-          "barcodes": [
-            "1000023138109"
-          ],
-          "variants": [
-            {
-              "size": "43,5",
-              "skuId": 2313810,
-              "skuName": "MILORD-3007-КОРИЧН-435",
-              "barcode": "1000023138109"
-            }
-          ]
-        }
-      ],
-      "cover": "fotos/883886_Туфли из натуральной кожи Roberto Bossi/Коричневый/01.jpg"
     },
     {
       "id": 1001683,
@@ -1786,20 +926,15 @@
       "price": 540000,
       "oldPrice": 540000,
       "discount": 0,
-      "skuCount": 9,
+      "skuCount": 1,
       "sizes": [
-        "39",
-        "40",
-        "41",
-        "43"
+        "39"
       ],
       "colors": [
         {
           "name": "Синий",
           "sizes": [
-            "39",
-            "40",
-            "43"
+            "39"
           ],
           "photos": [
             "fotos/1001683_Мужские мокасины Roberto Bossi/Синий/01.jpg",
@@ -1807,14 +942,10 @@
             "fotos/1001683_Мужские мокасины Roberto Bossi/Синий/03.jpg"
           ],
           "skuIds": [
-            2866333,
-            2866334,
-            2866337
+            2866333
           ],
           "barcodes": [
-            "1000028663330",
-            "1000028663347",
-            "1000028663378"
+            "1000028663330"
           ],
           "variants": [
             {
@@ -1822,120 +953,6 @@
               "skuId": 2866333,
               "skuName": "MILORD-80510-СИНИЙ-39",
               "barcode": "1000028663330"
-            },
-            {
-              "size": "40",
-              "skuId": 2866334,
-              "skuName": "MILORD-80510-СИНИЙ-40",
-              "barcode": "1000028663347"
-            },
-            {
-              "size": "43",
-              "skuId": 2866337,
-              "skuName": "MILORD-80510-СИНИЙ-43",
-              "barcode": "1000028663378"
-            }
-          ]
-        },
-        {
-          "name": "Темно-синий",
-          "sizes": [
-            "39",
-            "41",
-            "43"
-          ],
-          "photos": [
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Темно-синий/01.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Темно-синий/02.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Темно-синий/03.jpg"
-          ],
-          "skuIds": [
-            2866343,
-            2866345,
-            2866347
-          ],
-          "barcodes": [
-            "1000028663439",
-            "1000028663453",
-            "1000028663477"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 2866343,
-              "skuName": "MILORD-80510-ТЕМНСИН-39",
-              "barcode": "1000028663439"
-            },
-            {
-              "size": "41",
-              "skuId": 2866345,
-              "skuName": "MILORD-80510-ТЕМНСИН-41",
-              "barcode": "1000028663453"
-            },
-            {
-              "size": "43",
-              "skuId": 2866347,
-              "skuName": "MILORD-80510-ТЕМНСИН-43",
-              "barcode": "1000028663477"
-            }
-          ]
-        },
-        {
-          "name": "Тёмно-коричневый",
-          "sizes": [
-            "39"
-          ],
-          "photos": [
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Тёмно-коричневый/01.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Тёмно-коричневый/02.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Тёмно-коричневый/03.jpg"
-          ],
-          "skuIds": [
-            2866338
-          ],
-          "barcodes": [
-            "1000028663385"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 2866338,
-              "skuName": "MILORD-80510-ТЕМНКОР-39",
-              "barcode": "1000028663385"
-            }
-          ]
-        },
-        {
-          "name": "Угольный",
-          "sizes": [
-            "39",
-            "41"
-          ],
-          "photos": [
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Угольный/01.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Угольный/02.jpg",
-            "fotos/1001683_Мужские мокасины Roberto Bossi/Угольный/03.jpg"
-          ],
-          "skuIds": [
-            2866348,
-            2866350
-          ],
-          "barcodes": [
-            "1000028663484",
-            "1000028663507"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 2866348,
-              "skuName": "MILORD-80510-УГОЛЬН-39",
-              "barcode": "1000028663484"
-            },
-            {
-              "size": "41",
-              "skuId": 2866350,
-              "skuName": "MILORD-80510-УГОЛЬН-41",
-              "barcode": "1000028663507"
             }
           ]
         }
@@ -1951,104 +968,19 @@
       "price": 630000,
       "oldPrice": 800000,
       "discount": 21,
-      "skuCount": 24,
+      "skuCount": 8,
       "sizes": [
-        "39",
         "40",
-        "41",
-        "42",
         "43",
         "44",
-        "45",
         "46",
         "47"
       ],
       "colors": [
         {
-          "name": "Синий",
-          "sizes": [
-            "39",
-            "41",
-            "44",
-            "46"
-          ],
-          "photos": [
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Синий/01.jpg",
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Синий/02.jpg",
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Синий/03.jpg"
-          ],
-          "skuIds": [
-            2866708,
-            2866710,
-            2866713,
-            2866715
-          ],
-          "barcodes": [
-            "1000028667086",
-            "1000028667109",
-            "1000028667130",
-            "1000028667154"
-          ],
-          "variants": [
-            {
-              "size": "39",
-              "skuId": 2866708,
-              "skuName": "MILORD-1621-СИНИЙ-39",
-              "barcode": "1000028667086"
-            },
-            {
-              "size": "41",
-              "skuId": 2866710,
-              "skuName": "MILORD-1621-СИНИЙ-41",
-              "barcode": "1000028667109"
-            },
-            {
-              "size": "44",
-              "skuId": 2866713,
-              "skuName": "MILORD-1621-СИНИЙ-44",
-              "barcode": "1000028667130"
-            },
-            {
-              "size": "46",
-              "skuId": 2866715,
-              "skuName": "MILORD-1621-СИНИЙ-46",
-              "barcode": "1000028667154"
-            }
-          ]
-        },
-        {
-          "name": "Темно-синий",
-          "sizes": [
-            "44"
-          ],
-          "photos": [
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Темно-синий/01.jpg",
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Темно-синий/02.jpg",
-            "fotos/1001732_Мужские мокасины Roberto Bossi/Темно-синий/03.jpg"
-          ],
-          "skuIds": [
-            2866731
-          ],
-          "barcodes": [
-            "1000028667314"
-          ],
-          "variants": [
-            {
-              "size": "44",
-              "skuId": 2866731,
-              "skuName": "MILORD-1621-ТЕМНСИН-44",
-              "barcode": "1000028667314"
-            }
-          ]
-        },
-        {
           "name": "Тёмно-коричневый",
           "sizes": [
-            "39",
-            "40",
-            "41",
-            "44",
-            "45"
+            "44"
           ],
           "photos": [
             "fotos/1001732_Мужские мокасины Roberto Bossi/Тёмно-коричневый/01.jpg",
@@ -2056,59 +988,25 @@
             "fotos/1001732_Мужские мокасины Roberto Bossi/Тёмно-коричневый/03.jpg"
           ],
           "skuIds": [
-            2866717,
-            2866718,
-            2866719,
-            2866722,
-            2866723
+            2866722
           ],
           "barcodes": [
-            "1000028667178",
-            "1000028667185",
-            "1000028667192",
-            "1000028667222",
-            "1000028667239"
+            "1000028667222"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 2866717,
-              "skuName": "MILORD-1621-ТЕМНКОР-39",
-              "barcode": "1000028667178"
-            },
-            {
-              "size": "40",
-              "skuId": 2866718,
-              "skuName": "MILORD-1621-ТЕМНКОР-40",
-              "barcode": "1000028667185"
-            },
-            {
-              "size": "41",
-              "skuId": 2866719,
-              "skuName": "MILORD-1621-ТЕМНКОР-41",
-              "barcode": "1000028667192"
-            },
             {
               "size": "44",
               "skuId": 2866722,
               "skuName": "MILORD-1621-ТЕМНКОР-44",
               "barcode": "1000028667222"
-            },
-            {
-              "size": "45",
-              "skuId": 2866723,
-              "skuName": "MILORD-1621-ТЕМНКОР-45",
-              "barcode": "1000028667239"
             }
           ]
         },
         {
           "name": "Угольный",
           "sizes": [
-            "39",
             "43",
             "44",
-            "46",
             "47"
           ],
           "photos": [
@@ -2117,26 +1015,16 @@
             "fotos/1001732_Мужские мокасины Roberto Bossi/Угольный/03.jpg"
           ],
           "skuIds": [
-            2866735,
             2866739,
             2866740,
-            2866742,
             2866743
           ],
           "barcodes": [
-            "1000028667352",
             "1000028667390",
             "1000028667406",
-            "1000028667420",
             "1000028667437"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 2866735,
-              "skuName": "MILORD-1621-УГОЛЬН-39",
-              "barcode": "1000028667352"
-            },
             {
               "size": "43",
               "skuId": 2866739,
@@ -2150,12 +1038,6 @@
               "barcode": "1000028667406"
             },
             {
-              "size": "46",
-              "skuId": 2866742,
-              "skuName": "MILORD-1621-УГОЛЬН-46",
-              "barcode": "1000028667420"
-            },
-            {
               "size": "47",
               "skuId": 2866743,
               "skuName": "MILORD-1621-УГОЛЬН-47",
@@ -2166,13 +1048,8 @@
         {
           "name": "Черный",
           "sizes": [
-            "39",
             "40",
-            "41",
-            "42",
-            "43",
             "44",
-            "45",
             "46",
             "47"
           ],
@@ -2182,34 +1059,18 @@
             "fotos/1001732_Мужские мокасины Roberto Bossi/Черный/03.jpg"
           ],
           "skuIds": [
-            2866744,
             2866745,
-            2866746,
-            2866747,
-            2866748,
             2866749,
-            2866750,
             2866751,
             2866752
           ],
           "barcodes": [
-            "1000028667444",
             "1000028667451",
-            "1000028667468",
-            "1000028667475",
-            "1000028667482",
             "1000028667499",
-            "1000028667505",
             "1000028667512",
             "1000028667529"
           ],
           "variants": [
-            {
-              "size": "39",
-              "skuId": 2866744,
-              "skuName": "MILORD-1621-ЧЕРН-39",
-              "barcode": "1000028667444"
-            },
             {
               "size": "40",
               "skuId": 2866745,
@@ -2217,34 +1078,10 @@
               "barcode": "1000028667451"
             },
             {
-              "size": "41",
-              "skuId": 2866746,
-              "skuName": "MILORD-1621-ЧЕРН-41",
-              "barcode": "1000028667468"
-            },
-            {
-              "size": "42",
-              "skuId": 2866747,
-              "skuName": "MILORD-1621-ЧЕРН-42",
-              "barcode": "1000028667475"
-            },
-            {
-              "size": "43",
-              "skuId": 2866748,
-              "skuName": "MILORD-1621-ЧЕРН-43",
-              "barcode": "1000028667482"
-            },
-            {
               "size": "44",
               "skuId": 2866749,
               "skuName": "MILORD-1621-ЧЕРН-44",
               "barcode": "1000028667499"
-            },
-            {
-              "size": "45",
-              "skuId": 2866750,
-              "skuName": "MILORD-1621-ЧЕРН-45",
-              "barcode": "1000028667505"
             },
             {
               "size": "46",
@@ -2261,7 +1098,7 @@
           ]
         }
       ],
-      "cover": "fotos/1001732_Мужские мокасины Roberto Bossi/Синий/01.jpg"
+      "cover": "fotos/1001732_Мужские мокасины Roberto Bossi/Тёмно-коричневый/01.jpg"
     },
     {
       "id": 1001783,
@@ -2272,10 +1109,9 @@
       "price": 620000,
       "oldPrice": 620000,
       "discount": 0,
-      "skuCount": 3,
+      "skuCount": 1,
       "sizes": [
-        "47",
-        "48"
+        "47"
       ],
       "colors": [
         {
@@ -2300,56 +1136,6 @@
               "skuId": 2867128,
               "skuName": "MILORD-30055-ТЕМНСИН-47",
               "barcode": "1000028671281"
-            }
-          ]
-        },
-        {
-          "name": "Тёмно-коричневый",
-          "sizes": [
-            "48"
-          ],
-          "photos": [
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Тёмно-коричневый/01.jpg",
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Тёмно-коричневый/02.jpg",
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Тёмно-коричневый/03.jpg"
-          ],
-          "skuIds": [
-            2867125
-          ],
-          "barcodes": [
-            "1000028671250"
-          ],
-          "variants": [
-            {
-              "size": "48",
-              "skuId": 2867125,
-              "skuName": "MILORD-30055-ТЕМНКОР-48",
-              "barcode": "1000028671250"
-            }
-          ]
-        },
-        {
-          "name": "Черный",
-          "sizes": [
-            "47"
-          ],
-          "photos": [
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Черный/01.jpg",
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Черный/02.jpg",
-            "fotos/1001783_Мужские мокасины Roberto Bossi/Черный/03.jpg"
-          ],
-          "skuIds": [
-            2867132
-          ],
-          "barcodes": [
-            "1000028671328"
-          ],
-          "variants": [
-            {
-              "size": "47",
-              "skuId": 2867132,
-              "skuName": "MILORD-30055-ЧЕРН-47",
-              "barcode": "1000028671328"
             }
           ]
         }
