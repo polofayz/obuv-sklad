@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Склад MILORD</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <button class="city" type="button"><i class="ph ph-map-pin"></i> Ташкент</button>
+      <nav class="top-links">
+        <span>Пункты выдачи</span>
+        <span>Мои заказы</span>
+        <span>Русский</span>
+      </nav>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#/">
+        <span class="logo-mark">u</span>
+        <span class="logo-text">uzum <b>market</b></span>
+      </a>
+      <button class="catalog-btn" type="button" id="catalogBtn">
+        <i class="ph ph-squares-four"></i> Каталог
+      </button>
+      <form class="search" id="searchForm">
+        <input id="searchInput" type="search" placeholder="Искать обувь на складе" autocomplete="off" />
+        <button type="submit" aria-label="Найти"><i class="ph ph-magnifying-glass"></i></button>
+      </form>
+      <nav class="header-actions">
+        <button type="button" class="icon-btn" title="Войти"><i class="ph ph-user"></i><span>Войти</span></button>
+        <button type="button" class="icon-btn" title="Избранное"><i class="ph ph-heart"></i><span>Избранное</span></button>
+        <button type="button" class="icon-btn" id="cartBtn" title="Корзина">
+          <i class="ph ph-shopping-cart"></i><span>Корзина</span>
+          <em class="badge" id="cartCount" hidden>0</em>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="cats">
+    <div class="wrap cats-inner" id="filters">
+      <button class="chip is-on" data-kind="all" type="button">Все</button>
+      <button class="chip" data-kind="мокасины" type="button">Мокасины</button>
+      <button class="chip" data-kind="туфли" type="button">Туфли</button>
+      <button class="chip" data-kind="сапоги" type="button">Сапоги</button>
+    </div>
+  </div>
+
+  <main class="wrap" id="app"></main>
+
+  <aside class="drawer" id="cartDrawer" hidden>
+    <div class="drawer-panel">
+      <header>
+        <h2>Корзина</h2>
+        <button type="button" class="icon-only" id="closeCart" aria-label="Закрыть"><i class="ph ph-x"></i></button>
+      </header>
+      <div id="cartBody"></div>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <div class="wrap">Складские остатки с видео. Показаны только размеры и цвета, которые реально есть.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
