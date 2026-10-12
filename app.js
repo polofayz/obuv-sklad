@@ -3,6 +3,7 @@ const money = (n) => `${Number(n).toLocaleString("ru-RU")} сум`;
 const state = {
   data: null,
   kind: "all",
+  sizes: new Set(),
   query: "",
   cart: JSON.parse(localStorage.getItem("obuv-cart") || "[]"),
 };
@@ -22,12 +23,34 @@ function productById(id) {
   return state.data.products.find((p) => String(p.id) === String(id));
 }
 
+function sizeKey(s) {
+  return String(s).replace(".", ",");
+}
+
+function allSizes() {
+  const set = new Set();
+  for (const p of state.data.products) {
+    for (const s of p.sizes) set.add(sizeKey(s));
+  }
+  return [...set].sort((a, b) => {
+    const na = parseFloat(a.replace(",", "."));
+    const nb = parseFloat(b.replace(",", "."));
+    if (Number.isNaN(na) || Number.isNaN(nb)) return a.localeCompare(b, "ru");
+    return na - nb;
+  });
+}
+
+function hasSize(p, size) {
+  return p.sizes.some((s) => sizeKey(s) === size);
+}
+
 function filtered() {
   return state.data.products.filter((p) => {
     const kindOk = state.kind === "all" || p.kind === state.kind;
+    const sizeOk = state.sizes.size === 0 || [...state.sizes].some((s) => hasSize(p, s));
     const q = state.query.trim().toLowerCase();
     const text = `${p.name} ${p.colors.map((c) => c.name).join(" ")} ${p.id}`.toLowerCase();
-    return kindOk && (!q || text.includes(q));
+    return kindOk && sizeOk && (!q || text.includes(q));
   });
 }
 
@@ -42,17 +65,51 @@ function renderCatalog() {
       </div>
       <p>${items.length} товаров</p>
     </div>
-    <section class="grid">
-      ${items.map(cardHTML).join("")}
-    </section>
+    ${items.length
+      ? `<section class="grid">${items.map(cardHTML).join("")}</section>`
+      : `<div class="grid-empty">Нет моделей с таким размером. Снимите фильтр или выберите другой.</div>`}
   `;
   app.querySelectorAll("[data-open]").forEach((el) => {
-    el.addEventListener("click", () => { location.hash = `#/product/${el.dataset.open}`; });
+    el.addEventListener("click", () => {
+      const id = el.dataset.open;
+      const p = productById(id);
+      const picked = [...state.sizes].find((s) => hasSize(p, s));
+      if (picked) {
+        const color = p.colors.find((c) => c.sizes.some((s) => sizeKey(s) === picked)) || p.colors[0];
+        const size = color.sizes.find((s) => sizeKey(s) === picked) || color.sizes[0];
+        location.hash = `#/product/${id}?color=${encodeURIComponent(color.name)}&size=${encodeURIComponent(size)}`;
+      } else {
+        location.hash = `#/product/${id}`;
+      }
+    });
+  });
+}
+
+function renderSizeFilters() {
+  const bar = $("#sizeFilters");
+  bar.innerHTML = `
+    <button class="chip ${state.sizes.size === 0 ? "is-on" : ""}" data-size="all" type="button">Все</button>
+    ${allSizes().map((s) => `
+      <button class="chip ${state.sizes.has(s) ? "is-on" : ""}" data-size="${s}" type="button">${s}</button>
+    `).join("")}
+  `;
+  bar.querySelectorAll("[data-size]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const val = btn.dataset.size;
+      if (val === "all") state.sizes.clear();
+      else if (state.sizes.has(val)) state.sizes.delete(val);
+      else state.sizes.add(val);
+      renderSizeFilters();
+      if (!location.hash.startsWith("#/product")) renderCatalog();
+      else location.hash = "#/";
+    });
   });
 }
 
 function cardHTML(p) {
-  const sizes = p.sizes.join(", ");
+  const sizes = state.sizes.size
+    ? p.sizes.filter((s) => state.sizes.has(sizeKey(s))).join(", ")
+    : p.sizes.join(", ");
   const colorN = p.colors.length;
   return `
     <article class="card" data-open="${p.id}">
@@ -203,6 +260,7 @@ function route() {
 
 async function init() {
   state.data = await (await fetch("data/products.json")).json();
+  renderSizeFilters();
   saveCart();
   document.querySelectorAll("#filters .chip").forEach((btn) => {
     btn.addEventListener("click", () => {
